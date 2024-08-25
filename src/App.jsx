@@ -9,8 +9,8 @@ function App() {
   const addTask = () => {
     if (task.trim() && date.trim()) {
       setTodoList([...todoList, { task, date, isCompleted: false }]);
-      setTask('');  // Clear the input after adding task
-      setDate('');  // Clear the date after adding task
+      setTask('');  
+      setDate('');  
     }
   };
 
